@@ -3,29 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#160b0a" />
     <title>New Year Party 2027 | Brits Hotel Karawang</title>
-    <meta
-      name="description"
-      content="Mendang Mending Fest 2027 by Brits Hotel Karawang. Experience a luxury New Year celebration with Sundanese & Chinese fusion cuisine and premium hotel stays."
-    />
+    <meta name="description" content="Rayakan malam tahun baru 2027 di Mendang Mending Fest, Brits Hotel Karawang. Lihat pilihan kamar dan tanyakan reservasi melalui WhatsApp." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <nav class="topbar">
+  <body id="top">
+    <nav class="topbar" aria-label="Navigasi utama">
       <div class="container nav-wrap">
-        <div class="logo">BRITS HOTEL</div>
+        <a class="logo" href="#top" aria-label="Brits Hotel, kembali ke atas">BRITS HOTEL</a>
         <div class="nav-links">
-          <a href="#about">The Event</a>
-          <a href="#highlights">Highlights</a>
-          <a href="#stay">Stay</a>
-          <a href="#schedule">Schedule</a>
-          <a href="#reserve">Reserve</a>
+          <a href="#about">Tentang</a>
+          <a href="#rooms">Kamar</a>
+          <a href="#highlights">Acara</a>
+          <a href="#reserve">Kontak</a>
         </div>
       </div>
     </nav>
@@ -33,33 +27,20 @@
     <header class="hero">
       <div class="container hero-inner">
         <div class="hero-copy">
-          <span class="eyebrow">NEW YEAR PARTY 2027</span>
+          <span class="eyebrow">MALAM TAHUN BARU 2027</span>
           <h1>ONCE UPON A TIME IN <span>CHINA TOWN</span></h1>
           <div class="subtitle">Mendang Mending Fest</div>
-          <p>
-            A New Year celebration with Sundanese & Chinese fusion cuisine,
-            immersive culture, and warm hospitality. Welcome the new beginning
-            with good food, good vibes, and unforgettable memories at Brits Hotel
-            Karawang.
-          </p>
+          <p>Rayakan malam pergantian tahun dengan perpaduan kuliner Sunda dan Tionghoa, suasana meriah, serta kenyamanan menginap di Brits Hotel Karawang.</p>
           <div class="hero-actions">
-            <a href="#reserve" class="btn btn-primary">RESERVE YOUR TABLE</a>
-            <a href="#about" class="btn btn-secondary">DISCOVER MORE</a>
+            <a href="#rooms" class="btn btn-primary">LIHAT PILIHAN KAMAR</a>
+            <a href="#about" class="btn btn-secondary">TENTANG ACARA</a>
           </div>
-          <ul class="hero-stats" aria-label="event highlights">
-            <li><strong>1 Night</strong><span>Festive Celebration</span></li>
-            <li><strong>250+</strong><span>Guests</span></li>
-            <li><strong>Fusion</strong><span>Sunda & Tionghoa</span></li>
-          </ul>
+          <div class="hero-note"><span class="note-dot"></span> Perayaan spesial menyambut tahun 2027</div>
         </div>
-
-        <div class="hero-visual" aria-label="festival poster and image collage">
+        <div class="hero-visual">
           <div class="poster-card">
-            <img
-              src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80"
-              alt="Celebration atmosphere with cultural and festive theme"
-            />
-            <div class="poster-badge">2027 • CHINA TOWN</div>
+            <img src="poster-new-year-2027.jpg" alt="Poster Mendang Mending Fest New Year Party 2027 di Brits Hotel Karawang" />
+            <div class="poster-badge">31 DESEMBER 2026 · KARAWANG</div>
           </div>
         </div>
       </div>
@@ -69,216 +50,101 @@
       <section id="about" class="section intro-section">
         <div class="container narrow">
           <div class="section-header center">
-            <span class="eyebrow">FUSION EXPERIENCE</span>
-            <h2>Culture Meets Culinary</h2>
+            <span class="eyebrow">PENGALAMAN FUSION</span>
+            <h2>Budaya Bertemu Kuliner</h2>
           </div>
-          <p class="lead">
-            Sambut tahun baru 2027 dengan konsep perayaan yang belum pernah ada
-            sebelumnya. Brits Hotel Karawang menghadirkan <strong>Mendang Mending
-            Fest</strong>, perpaduan harmonis antara kelezatan kuliner fusion Sunda
-            & Tionghoa, ditambah sentuhan budaya ikonik dari Semar, Cepot,
-            Dewala, dan Gareng.
-          </p>
+          <p class="lead">Sambut tahun baru 2027 bersama <strong>Mendang Mending Fest</strong>: perpaduan kuliner fusion Sunda dan Tionghoa dengan sentuhan karakter budaya Semar, Cepot, Dewala, dan Gareng. Nikmati malam penuh cita rasa, hiburan, dan kebersamaan di Brits Hotel Karawang.</p>
+        </div>
+      </section>
+
+      <section id="rooms" class="section stay-section">
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">PILIHAN AKOMODASI</span>
+            <h2>Lengkapi Malam Spesial Anda</h2>
+            <p class="section-intro">Pilih kamar yang sesuai, lalu tekan tombol WhatsApp untuk menanyakan harga dan ketersediaan.</p>
+          </div>
+          <div class="card-grid four-up">
+            <article class="room-card">
+              <span class="room-label">NYAMAN & PRAKTIS</span>
+              <h3>Superior Room</h3>
+              <p>22–24 m² · King / Twin Bed</p>
+              <div class="price">Rp560.000<span>+</span></div>
+              <p>Kenyamanan modern untuk beristirahat setelah merayakan malam tahun baru.</p>
+              <a class="btn btn-whatsapp room-whatsapp" data-room="Superior Room" href="https://wa.me/6281110013268?text=Halo%20Brits%20Hotel%2C%20saya%20ingin%20bertanya%20tentang%20Superior%20Room%20untuk%20malam%20Tahun%20Baru%202027.%20Mohon%20info%20harga%20dan%20ketersediaannya." target="_blank" rel="noopener noreferrer" aria-label="Tanyakan Superior Room melalui WhatsApp">TANYAKAN VIA WHATSAPP</a>
+            </article>
+            <article class="room-card">
+              <span class="room-label">LEBIH LEGA</span>
+              <h3>Deluxe Room</h3>
+              <p>26–32 m² · King / Twin Bed</p>
+              <div class="price">Rp650.000<span>+</span></div>
+              <p>Ruang lebih luas untuk kenyamanan ekstra selama kunjungan Anda.</p>
+              <a class="btn btn-whatsapp room-whatsapp" data-room="Deluxe Room" href="https://wa.me/6281110013268?text=Halo%20Brits%20Hotel%2C%20saya%20ingin%20bertanya%20tentang%20Deluxe%20Room%20untuk%20malam%20Tahun%20Baru%202027.%20Mohon%20info%20harga%20dan%20ketersediaannya." target="_blank" rel="noopener noreferrer" aria-label="Tanyakan Deluxe Room melalui WhatsApp">TANYAKAN VIA WHATSAPP</a>
+            </article>
+            <article class="room-card">
+              <span class="room-label">FLEKSIBEL</span>
+              <h3>Business Room</h3>
+              <p>30 m² · King Bed</p>
+              <div class="price">Rp760.000<span>+</span></div>
+              <p>Dilengkapi area pantry, ideal untuk pengalaman menginap yang lebih leluasa.</p>
+              <a class="btn btn-whatsapp room-whatsapp" data-room="Business Room" href="https://wa.me/6281110013268?text=Halo%20Brits%20Hotel%2C%20saya%20ingin%20bertanya%20tentang%20Business%20Room%20untuk%20malam%20Tahun%20Baru%202027.%20Mohon%20info%20harga%20dan%20ketersediaannya." target="_blank" rel="noopener noreferrer" aria-label="Tanyakan Business Room melalui WhatsApp">TANYAKAN VIA WHATSAPP</a>
+            </article>
+            <article class="room-card room-featured">
+              <span class="room-label">PENGALAMAN PREMIUM</span>
+              <h3>Suite Room</h3>
+              <p>48–50 m² · King Bed</p>
+              <div class="price">Rp1.500.000<span>+</span></div>
+              <p>Ruang tamu terpisah dan fasilitas premium untuk malam yang istimewa.</p>
+              <a class="btn btn-whatsapp room-whatsapp" data-room="Suite Room" href="https://wa.me/6281110013268?text=Halo%20Brits%20Hotel%2C%20saya%20ingin%20bertanya%20tentang%20Suite%20Room%20untuk%20malam%20Tahun%20Baru%202027.%20Mohon%20info%20harga%20dan%20ketersediaannya." target="_blank" rel="noopener noreferrer" aria-label="Tanyakan Suite Room melalui WhatsApp">TANYAKAN VIA WHATSAPP</a>
+            </article>
+          </div>
+          <p class="price-note">*Harga dan ketersediaan dapat berubah. Silakan konfirmasi langsung kepada pihak hotel melalui WhatsApp.</p>
         </div>
       </section>
 
       <section id="highlights" class="section dark-section">
         <div class="container">
           <div class="section-header center">
-            <span class="eyebrow">HIGHLIGHTS</span>
-            <h2>What Makes the Night Special</h2>
+            <span class="eyebrow">KESERUAN MALAM</span>
+            <h2>Yang Membuat Malam Ini Spesial</h2>
           </div>
-
           <div class="card-grid four-up">
-            <article class="feature-card">
-              <div class="icon">🎵</div>
-              <h3>Live Entertainment</h3>
-              <p>
-                Penampilan musik, visual panggung, dan hiburan yang memadukan rasa
-                modern dengan nuansa budaya khas Tionghoa dan Sunda.
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <div class="icon">🍽️</div>
-              <h3>Chef’s Signature Menu</h3>
-              <p>
-                Menyajikan menu fusion lengkap dengan cita rasa khas Nusantara,
-                ditampilkan dengan presentasi premium untuk malam spesial Anda.
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <div class="icon">📸</div>
-              <h3>Photo Corner</h3>
-              <p>
-                Area foto ala Chinatown yang Instagrammable, lengkap dengan mood
-                khas meriah untuk momen tahun baru Anda.
-              </p>
-            </article>
-
-            <article class="feature-card">
-              <div class="icon">✨</div>
-              <h3>Grand Countdown</h3>
-              <p>
-                Rayakan pergantian tahun dengan suasana elegan, penuh semangat dan
-                pengalaman yang tak terlupakan di tengah kota Karawang.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="stay" class="section stay-section">
-        <div class="container">
-          <div class="section-header center">
-            <span class="eyebrow">ACCOMMODATION</span>
-            <h2>Complete Your Night</h2>
-          </div>
-
-          <div class="card-grid four-up">
-            <article class="room-card">
-              <h3>Superior Room</h3>
-              <p>22–24 m² · King / Twin Bed</p>
-              <div class="price">Rp560.000+</div>
-              <p>Kenyamanan modern untuk relaksasi setelah perayaan malam tahun baru.</p>
-            </article>
-
-            <article class="room-card">
-              <h3>Deluxe Room</h3>
-              <p>26–32 m² · King / Twin Bed</p>
-              <div class="price">Rp650.000+</div>
-              <p>Ruang yang dirancang dengan presisi untuk kenyamanan ekstra dan udara yang hangat.</p>
-            </article>
-
-            <article class="room-card">
-              <h3>Business Room</h3>
-              <p>30 m² · King Bed</p>
-              <div class="price">Rp760.000+</div>
-              <p>Dilengkapi area pantry, ideal untuk tamu yang menginginkan rasa lebih leluasa.</p>
-            </article>
-
-            <article class="room-card">
-              <h3>Suite Room</h3>
-              <p>48–50 m² · King Bed</p>
-              <div class="price">Rp1.500.000+</div>
-              <p>Pengalaman menginap premium dengan ruang tamu terpisah dan fasilitas berkelas.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="facilities" class="section facilities-section">
-        <div class="container">
-          <div class="section-header center">
-            <span class="eyebrow">PREMIUM FACILITIES</span>
-            <h2>Unwind & Connect</h2>
-          </div>
-
-          <div class="card-grid four-up">
-            <article class="feature-card small">
-              <div class="icon">🏊</div>
-              <h3>Swimming Pool</h3>
-              <p>Area kolam renang outdoor yang menenangkan untuk menikmati suasana pagi tahun baru.</p>
-            </article>
-            <article class="feature-card small">
-              <div class="icon">🍜</div>
-              <h3>Restaurant & Lounge</h3>
-              <p>Menyajikan perpaduan menu Nusantara dan Internasional dalam suasana elegan.</p>
-            </article>
-            <article class="feature-card small">
-              <div class="icon">🧘</div>
-              <h3>Wellness Center</h3>
-              <p>Fasilitas kebugaran, spa, dan sauna untuk reset energi sebelum atau sesudah perayaan.</p>
-            </article>
-            <article class="feature-card small">
-              <div class="icon">🎉</div>
-              <h3>Grand Ballroom</h3>
-              <p>Venue utama event dengan tata cahaya, akustik, dan kapasitas yang sesuai untuk acara besar.</p>
-            </article>
+            <article class="feature-card"><div class="icon" aria-hidden="true">♫</div><h3>Hiburan Langsung</h3><p>Suasana meriah dengan hiburan dan sentuhan budaya Sunda serta Tionghoa.</p></article>
+            <article class="feature-card"><div class="icon" aria-hidden="true">✦</div><h3>Menu Spesial</h3><p>Nikmati ragam sajian fusion dengan cita rasa khas untuk malam pergantian tahun.</p></article>
+            <article class="feature-card"><div class="icon" aria-hidden="true">◎</div><h3>Area Foto</h3><p>Abadikan momen bersama dekorasi bertema Chinatown yang meriah.</p></article>
+            <article class="feature-card"><div class="icon" aria-hidden="true">✧</div><h3>Hitung Mundur</h3><p>Sambut tahun baru dalam suasana penuh semangat bersama orang terdekat.</p></article>
           </div>
         </div>
       </section>
 
       <section id="schedule" class="section schedule-section">
         <div class="container">
-          <div class="section-header center">
-            <span class="eyebrow">EVENT TIMELINE</span>
-            <h2>From Sunset to Countdown</h2>
-          </div>
-
+          <div class="section-header center"><span class="eyebrow">RANGKAIAN ACARA</span><h2>Dari Sore hingga Hitung Mundur</h2></div>
           <div class="timeline">
-            <div class="timeline-item">
-              <span class="time">18:00</span>
-              <div>
-                <h3>Guest Arrival</h3>
-                <p>Welcome drinks, networking, and a warm Chinese–Sundanese cultural greeting.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span class="time">19:30</span>
-              <div>
-                <h3>Opening Parade</h3>
-                <p>Traditional performance and themed cultural showcase to kick off the night.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span class="time">21:00</span>
-              <div>
-                <h3>Signature Dining</h3>
-                <p>Exclusive fusion dinner experience with selected specialties from the menu.</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span class="time">23:45</span>
-              <div>
-                <h3>Countdown Moment</h3>
-                <p>Skylight celebration and a big finale to welcome 2027 with joy and energy.</p>
-              </div>
-            </div>
+            <div class="timeline-item"><span class="time">18.00</span><div><h3>Kedatangan Tamu</h3><p>Registrasi dan sambutan hangat untuk memulai malam.</p></div></div>
+            <div class="timeline-item"><span class="time">19.30</span><div><h3>Pembukaan Acara</h3><p>Pertunjukan budaya dan hiburan pembuka.</p></div></div>
+            <div class="timeline-item"><span class="time">21.00</span><div><h3>Santap Malam</h3><p>Nikmati pengalaman menu fusion untuk malam spesial.</p></div></div>
+            <div class="timeline-item"><span class="time">23.45</span><div><h3>Hitung Mundur</h3><p>Bersama menyambut tahun 2027 dengan penuh sukacita.</p></div></div>
           </div>
-        </div>
-      </section>
-
-      <section class="section gallery-section">
-        <div class="container">
-          <div class="section-header center">
-            <span class="eyebrow">VISUAL FEEL</span>
-            <h2>Ambience That Speaks Luxury</h2>
-          </div>
-
-          <div class="gallery-grid">
-            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80" alt="Dinner event ambience" />
-            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80" alt="Luxury hotel interior" />
-            <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80" alt="Hotel dining experience" />
-            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80" alt="People enjoying celebration" />
-          </div>
+          <p class="price-note">Jadwal acara merupakan gambaran dan dapat berubah. Konfirmasi detail kepada pihak hotel.</p>
         </div>
       </section>
     </main>
 
     <section id="reserve" class="cta-section">
       <div class="container cta-wrap">
-        <span class="eyebrow">SECURE YOUR SPOT</span>
-        <h2>Welcome The New Beginnings</h2>
-        <p>
-          Jangan lewatkan perayaan tutup tahun paling epik di Karawang. Kapasitas terbatas demi
-          menjaga kenyamanan dan pengalaman eksklusif Anda.
-        </p>
+        <span class="eyebrow">BUTUH INFORMASI?</span>
+        <h2>Mari Sambut Awal yang Baru</h2>
+        <p>Hubungi Brits Hotel Karawang untuk menanyakan reservasi, harga terbaru, dan ketersediaan kamar.</p>
         <div class="cta-actions">
-          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Brits+Hotel+Karawang" target="_blank" rel="noopener">GET DIRECTIONS</a>
-          <a class="btn btn-secondary" href="#top">BACK TO TOP</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/6281110013268?text=Halo%20Brits%20Hotel%20Karawang%2C%20saya%20ingin%20bertanya%20tentang%20reservasi%20New%20Year%20Party%202027." target="_blank" rel="noopener noreferrer">CHAT WHATSAPP HOTEL</a>
+          <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&amp;query=Brits+Hotel+Karawang" target="_blank" rel="noopener noreferrer">PETUNJUK ARAH</a>
         </div>
       </div>
     </section>
 
-    <footer class="site-footer">
-      <div class="container footer-box">
-        <strong>BRITS HOTEL KARAWANG</strong>
-        Grand Taruma, Karawang, Jawa Barat<br />
-        A Perfect Place to Stay, Celebrate & Connect.<br /><br />
-        © 2026 Brits Hotel Karawang
-      </div>
-    </footer>
+    <footer class="site-footer"><div class="container footer-box"><strong>BRITS HOTEL KARAWANG</strong>Grand Taruma, Karawang, Jawa Barat<br />A Perfect Place to Stay, Celebrate & Connect.<br /><br />© 2026 Brits Hotel Karawang</div></footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/6281110013268?text=Halo%20Brits%20Hotel%20Karawang%2C%20saya%20ingin%20bertanya%20tentang%20New%20Year%20Party%202027." target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp Brits Hotel Karawang"><span aria-hidden="true">☏</span><span class="floating-label">Tanya via WhatsApp</span></a>
   </body>
 </html>
